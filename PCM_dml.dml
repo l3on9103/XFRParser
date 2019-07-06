@@ -1,0 +1,5 @@
+record
+string("|") physics;
+string("|") chemistry;
+string("\n") id;
+end
