@@ -1,0 +1,4 @@
+out :: rollup(in) =
+begin
+  out.max :: max(in);
+end;

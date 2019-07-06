@@ -1,0 +1,5 @@
+out :: reformat(in) =
+begin
+  out.* :: in.*;
+  out.full_name :: string_concat(in.first_name,in.last_name,Constant$);
+end; 

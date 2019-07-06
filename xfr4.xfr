@@ -1,0 +1,18 @@
+/*dafsafsafsafsaf
+cmdsbchjdsgfhdbdsfds
+
+safsafsafsafsafsaffssa
+safsaf*/
+
+out :: reformat(in) =
+begin
+  out.* :: in.*;
+  out.physics_marks :: lookup("PCM_data.dat",in.id).physics;
+  out.full_name :: string_concat(in.first_name,in.last_name,Constant$);
+  out.first_defined :: first_defined( ,in.hobby,in.company,9999);
+  out.is_unemployed :: is_null(in.company);
+  out.is_hobby_defined :: is_defined(in.hobby);
+end; 
+
+/*hdgksahdjkashdjlasdbnbnbkn nmbm
+djvsadmsamndbsmnabdksabdnbsabbm*/
