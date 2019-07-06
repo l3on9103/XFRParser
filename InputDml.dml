@@ -1,0 +1,11 @@
+record
+string("|") fav_color;
+string("|") place_of_birth;
+string("|") hobby;
+string("|") marital_status;
+string("|") mother_tounge;
+string("|") company;
+string("|") first_name;
+string("|") last_name;
+string("\n") id;
+end
