@@ -1,0 +1,5 @@
+record
+string("|") first_name;
+string("|") last_name;
+string("\n") full_name;
+end 
